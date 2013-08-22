@@ -1,15 +1,38 @@
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('../fonts/nexa_bold-webfont.eot');
+    src: url('../fonts/nexa_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nexa_bold-webfont.woff') format('woff'),
+         url('../fonts/nexa_bold-webfont.ttf') format('truetype'),
+         url('../fonts/nexa_bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nexa_lightregular';
+    src: url('../fonts/nexa_light-webfont.eot');
+    src: url('../fonts/nexa_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nexa_light-webfont.woff') format('woff'),
+         url('../fonts/nexa_light-webfont.ttf') format('truetype'),
+         url('../fonts/nexa_light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-  font-family: "Nexa Light";
+  font-family: "nexa_lightregular";
   height: 150%;
 }
 
 h1, h2, h3, h4, h5 {
- font-family: "Nexa Bold"; 
+ font-family: "nexa_boldregular"; 
 }
 
 div.me-content {
   text-align: center;
   padding: 3em;
+  padding-bottom: 0;
 }
 
 div.me-content div.letter-content {
@@ -19,14 +42,15 @@ div.me-content div.letter-content {
 }
 
 div.me-content div.letter-content a {
-  font-family: "Nexa Bold";
+  font-family: "nexa_boldregular";
   color: #ff4a4a;
 }
 
 div.me-content div.letter-content p.signature {
-  margin-top: 0;
+  margin-top: 0.4em;
+  margin-bottom 0.2em;
   text-align: center;
-  font-family: "Noteworthy";
+  font-family: 'Handlee', cursive;
   font-size: 2em;
   color: #444;
 }
@@ -62,6 +86,10 @@ div.red-panel h2 {
   div.links {
     margin-top: 2em;
     margin-bottom: 2em;
+  }
+
+  div.red-panel div.quote {
+    text-align: center;
   }
 }
 

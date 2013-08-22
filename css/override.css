@@ -32,12 +32,13 @@ h1, h2, h3, h4, h5 {
 div.me-content {
   text-align: center;
   padding: 3em;
+  padding-top: 2.2em;
   padding-bottom: 0;
 }
 
 div.me-content div.letter-content {
-  margin-top: 2em;
-  font-size: 1.5em;
+  margin-top: 1.7em;
+  font-size: 1.3em;
   text-align: left;
 }
 
@@ -48,10 +49,10 @@ div.me-content div.letter-content a {
 
 div.me-content div.letter-content p.signature {
   margin-top: 0.4em;
-  margin-bottom 0.2em;
+  margin-bottom: 0.2em;
   text-align: center;
   font-family: 'Handlee', cursive;
-  font-size: 2em;
+  font-size: 1.7em;
   color: #444;
 }
 
@@ -62,13 +63,13 @@ div.red-panel {
 }
 
 div.links {
-  margin-top: 25%;
-  margin-bottom: 5%;
+  margin-top: 10%;
+  margin-bottom: 17%;
   text-align: center;
 }
 
 div.links img {
-  padding: 0 10px;
+  padding: 0 1.7em;
 }
 
 div.red-panel h2 {
@@ -76,6 +77,13 @@ div.red-panel h2 {
   color: white;
   font-size: 3.5em;
   vertical-align: middle;
+}
+
+div.last-bit {
+  text-align: center;
+  margin-top: 22%;
+  font-size: 0.8em;
+  color: #7f2a2a;
 }
 
 @media only screen and (max-width: 768px) {
@@ -90,6 +98,18 @@ div.red-panel h2 {
 
   div.red-panel div.quote {
     text-align: center;
+  }
+
+  div.letter-content p {
+    text-align: justify; 
+  }
+
+  div.me-content div.letter-content p.signature {
+    margin-bottom: 0.7em;
+  }
+
+  div.last-bit {
+    display: none;
   }
 }
 

@@ -1,0 +1,85 @@
+body {
+  font-family: "Nexa Light";
+  height: 150%;
+}
+
+h1, h2, h3, h4, h5 {
+ font-family: "Nexa Bold"; 
+}
+
+div.me-content {
+  text-align: center;
+  padding: 3em;
+}
+
+div.me-content div.letter-content {
+  margin-top: 2em;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+div.me-content div.letter-content a {
+  font-family: "Nexa Bold";
+  color: #ff4a4a;
+}
+
+div.me-content div.letter-content p.signature {
+  margin-top: 0;
+  text-align: center;
+  font-family: "Noteworthy";
+  font-size: 2em;
+  color: #444;
+}
+
+div.red-panel {
+  background-color: #ff4a4a;
+  color: white;
+  vertical-align: middle;
+}
+
+div.links {
+  margin-top: 25%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+div.links img {
+  padding: 0 10px;
+}
+
+div.red-panel h2 {
+  padding: 1em;
+  color: white;
+  font-size: 3.5em;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 768px) {
+  div.red-panel h2 {
+    font-size: 2em;
+  }
+
+  div.links {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    height: 100%;
+  }
+
+  .row {
+    height: 100%;
+  }
+
+  .columns {
+    height: 100%;
+  }
+
+
+  div.me-content div.letter-content p.sincerely {
+    margin-bottom: 0.1em;
+  }
+}
